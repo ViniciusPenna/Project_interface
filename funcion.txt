@@ -1,0 +1,18 @@
+ function hide(){
+
+    isset($_POST['txtStockID'])? $stockID = $_POST['txtStockID'] : $stockID = gen_ID();
+    isset($_POST['txtStockName'])? $stockName = $_POST['txtStockName'] : $stockName = "";
+    isset($_POST['txtStockDesc'])? $stockDesc = $_POST['txtStockDesc'] : $stockDesc = "";
+    isset($_POST['txtStockOnHand'])? $stockOnHand = $_POST['txtStockOnHand'] : $stockOnHand = "0";
+    isset($_POST['txtStockImage'])? $stockImage = $_POST['txtStockImage'] : $stockImage = "";
+    isset($_POST['txtStockPrice'])? $stockPrice = $_POST['txtStockPrice'] : $stockPrice = "0.00";
+    isset($_POST['txtStatus'])? $stockStatus = $_POST['txtStatus'] : $stockStatus = "";
+   
+    <?PHP     
+	 if($isAdmin){ 
+    ?>
+		    
+
+	
+
+    }
